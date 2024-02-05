@@ -1,3 +1,9 @@
+# Identificação
+
+* Nome: 
+* Email (@ccc): 
+* Matrícula: 
+
 # Template Prova
 
 Este roteiro foi desenvolvido para assegurar que os alunos estão familiarizados como a infraestrutura da disciplina para recebimento, entrega e correção das provas.
@@ -8,11 +14,13 @@ A prova é prática. Muitas vezes envolve código já escrito por mim e que voc�
 
 > Passo 1: Aceite o assignment: [link](link)
 
-> Passo 2: Faça o clone do template: `git clone https://github.com/eda-ufcg/template-prova-XXXXXXX.git`
+> Passo 2: Faça o clone do template: `git clone https://github.com/eda-ufcg/template-piloto-prova-XXXXXXX.git`
 
 ## Entendendo o template e fazendo a prova
 
-Leia as instruções que estão no README do repositório https://github.com/eda-ufcg/template-prova-XXXXXXX.git. Toda a informação necessária para fazer a prova estará descrita no README.
+Leia as instruções que estão no README do repositório https://github.com/eda-ufcg/template-piloto-prova-XXXXXXX.git. Toda a informação necessária para fazer a prova estará descrita no README. Para esse simulado, vou deixar aqui as instruções:
+
+....
 
 ### O template
 
