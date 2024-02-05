@@ -21,7 +21,7 @@ A prova é prática. Muitas vezes envolve código já escrito por mim e que voc�
 Leia as instruções que estão no README do repositório https://github.com/eda-ufcg/template-piloto-prova-XXXXXXX.git. Toda a informação necessária para fazer a prova estará descrita no README. Para esse simulado, vou deixar aqui as instruções:
 
 
-### Move impostor
+    Move impostor
     
     Escreva o método moveImpostor que encontra e move o impostor de um array
     de inteiros uma lista de inteiros. O impostor é o **primeiro** número que quebra uma sequencia em ordem crescente. Por exemplo, na sequência:
