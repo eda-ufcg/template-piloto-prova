@@ -20,7 +20,39 @@ A prova é prática. Muitas vezes envolve código já escrito por mim e que voc�
 
 Leia as instruções que estão no README do repositório https://github.com/eda-ufcg/template-piloto-prova-XXXXXXX.git. Toda a informação necessária para fazer a prova estará descrita no README. Para esse simulado, vou deixar aqui as instruções:
 
-....
+
+### Move impostor
+    
+    Escreva o método moveImpostor que encontra e move o impostor de um array
+    de inteiros uma lista de inteiros. O impostor é o **primeiro** número que quebra uma sequencia em ordem crescente. Por exemplo, na sequência:
+    
+        1 2 4 3 7 90
+    
+    O impostor é o elemento 3.
+    
+    Além de encontrar o impostor, você deve posiciona-lo em seu devido lugar. 
+    Para o exemplo acima, seu método deve alterar o array 
+    para: 1 2 3 4 7 90.
+    
+    *Importante!* Só há um impostor. 
+    Como dito anteriormente, é o primeiro elemento que quebra uma sequência ordenada.
+    
+    Veja outro exemplo:
+    
+    
+        5 7 8 19 -4 4 1 6 8 12 81 3
+        
+        Nessa sequência, o impostor é o elemento -4. Após a execução do seu algoritmo, o array deve ficar neste estado:
+    
+        -4 5 7 8 19 4 1 6 8 12 81 3
+    
+    #### Funções que NÃO são permitidas
+    Seu programa deve apenas manipular o array de inteiros.
+    
+        - insert
+        - remove
+        - pop
+        - qualquer função de ordenação
 
 ### O template
 
