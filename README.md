@@ -12,7 +12,7 @@ Este roteiro foi desenvolvido para assegurar que os alunos estão familiarizados
 
 A prova é prática. Muitas vezes envolve código já escrito por mim e que vocês vão alterar ou evoluir. Portanto, você deve clonar o repositório do assignment. 
 
-> Passo 1: Aceite o assignment: [link](link)
+> Passo 1: Aceite o assignment: [(https://classroom.github.com/a/2osoivGf)](https://classroom.github.com/a/2osoivGf)
 
 > Passo 2: Faça o clone do template: `git clone https://github.com/eda-ufcg/template-piloto-prova-XXXXXXX.git`
 
