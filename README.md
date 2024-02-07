@@ -66,13 +66,13 @@ Leia as instruções que estão no README do repositório https://github.com/eda
 
 > Compilando: `mvn compile`
 
-> Executando os testes: `mvn tests`
+> Executando os testes: `mvn test`
 
 ## Entregando a prova
 
 > Passo 0. Modifique o arquivo README. Coloque seu nome, email @ccc e matrícula nos lugares indicados. Se você não fizer isso, não considero que sua prova foi assinada e, portanto, não vou corrigir.
 
-> Passo 1. Certifique-se **NO TERMINAL** de que sua solução compila e passa nos testes públicos. Isso deve ser feito com os comandos do mvn (compile e tests).
+> Passo 1. Certifique-se **NO TERMINAL** de que sua solução compila e passa nos testes públicos. Isso deve ser feito com os comandos do mvn (compile e test).
 
 > Passo 2. Submeta as suas modificações para o repositório
 
