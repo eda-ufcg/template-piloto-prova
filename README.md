@@ -64,6 +64,8 @@ Leia as instruções que estão no README do repositório https://github.com/eda
 
 ## Trabalhando com o código
 
+Executar os comandos abaixo no diretório raiz do seu projeto (onde está o arquivo pom.xml).
+
 > Compilando: `mvn compile`
 
 > Executando os testes: `mvn test`
