@@ -39,9 +39,7 @@
                 <version>3.0.0-M5</version> <!-- Use the latest version available -->
 
                 <configuration>
-                <!-- Set the timeout for tests in milliseconds -->
-                    <forkedProcessTimeoutInSeconds>5</forkedProcessTimeoutInSeconds> <!-- Adjust the timeout value as needed -->
-                <!-- Other Surefire Plugin configurations go here -->
+                    <forkedProcessTimeoutInSeconds>5</forkedProcessTimeoutInSeconds> 
                 </configuration>
             </plugin>
         </plugins>
