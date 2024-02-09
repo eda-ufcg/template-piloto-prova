@@ -56,7 +56,7 @@ Leia as instruções que estão no README do repositório https://github.com/eda
 
 ### O template
 
-> Não altere o arquivo pom.xml
+> Não altere o arquivo build.gradle
 
 > O código java estará (ou você terá que colocar) no diretório **/src/main/java/**
 
@@ -64,17 +64,17 @@ Leia as instruções que estão no README do repositório https://github.com/eda
 
 ## Trabalhando com o código
 
-Executar os comandos abaixo no diretório raiz do seu projeto (onde está o arquivo pom.xml).
+Executar os comandos abaixo no diretório raiz do seu projeto (onde está o arquivo build.gradle).
 
-> Compilando: `mvn compile`
+> Compilando: `gradle compileJava`
 
-> Executando os testes: `mvn test`
+> Executando os testes: `gradle test`
 
 ## Entregando a prova
 
 > Passo 0. Modifique o arquivo README. Coloque seu nome, email @ccc e matrícula nos lugares indicados. Se você não fizer isso, não considero que sua prova foi assinada e, portanto, não vou corrigir.
 
-> Passo 1. Certifique-se **NO TERMINAL** de que sua solução compila e passa nos testes públicos. Isso deve ser feito com os comandos do mvn (compile e test).
+> Passo 1. Certifique-se **NO TERMINAL** de que sua solução compila e passa nos testes públicos. Isso deve ser feito com os comandos do gradle (compileJava e test).
 
 > Passo 2. Submeta as suas modificações para o repositório
 
