@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class AssertsMoveImpostor {
 
-    public static void testMoveImpostorAsserts() {
+    public static void runTests() {
         int[] in = new int[]{1, 2, 4, 3, 7, 90};
         int[] expect = new int[]{1, 2, 3, 4, 7, 90};
         assert Arrays.equals(expect, MoveImpostor.moveImpostor(in));
@@ -21,6 +21,14 @@ public class AssertsMoveImpostor {
     }
 
     public static void main(String[] args) {
-        testMoveImpostorAsserts();
+        boolean assertsEnabled = false;
+        assert assertsEnabled = true;
+
+        if (!assertsEnabled) {
+            System.out.println("Ative assertions com -ea para executar os testes.");
+            return;
+        }
+
+        runTests();
     }
 }
