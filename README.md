@@ -9,10 +9,9 @@
 
 > O código java estará (ou você terá que colocar) no diretório **/src/main/java/**
 
-> Os testes estão nas classes BuscaBinariaAsserts e EqualsAsserts.
+> Os testes estão na classe AssertsMoveImpostor.java
 
-    javac BuscaBinariaAsserts.java ; java -ea BuscaBinariaAsserts
-    javac EqualsAsserts.java ; java -ea EqualsAsserts
+    javac AssertsMoveImpostor.java ; java -ea AssertsMoveImpostor
 
 
 # Simulado Prova
