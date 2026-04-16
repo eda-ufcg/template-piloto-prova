@@ -4,22 +4,18 @@
 * Email (@ccc): 
 * Matrícula: 
 
-# Template Prova
 
-Este roteiro foi desenvolvido para assegurar que os alunos estão familiarizados como a infraestrutura da disciplina para recebimento, entrega e correção das provas.
+## O template
 
-## Recebendo a prova
+> O código java estará (ou você terá que colocar) no diretório **/src/main/java/**
 
-A prova é prática. Muitas vezes envolve código já escrito por mim e que vocês vão alterar ou evoluir. Portanto, você deve clonar o repositório do assignment. 
+> Os testes estão nas classes BuscaBinariaAsserts e EqualsAsserts.
 
-> Passo 1: Aceite o assignment: [https://classroom.github.com/a/WKxyjP9N](https://classroom.github.com/a/WKxyjP9N)
+    javac BuscaBinariaAsserts.java ; java -ea BuscaBinariaAsserts
+    javac EqualsAsserts.java ; java -ea EqualsAsserts
 
-> Passo 2: Faça o clone do template: `git clone https://github.com/eda-ufcg/template-piloto-prova-XXXXXXX.git`
 
-## Entendendo o template e fazendo a prova
-
-Leia as instruções que estão no README do repositório https://github.com/eda-ufcg/template-piloto-prova-XXXXXXX.git. Toda a informação necessária para fazer a prova estará descrita no README. Para esse simulado, vou deixar aqui as instruções:
-
+# Simulado Prova
 
     Move impostor
     
@@ -54,30 +50,40 @@ Leia as instruções que estão no README do repositório https://github.com/eda
         - pop
         - qualquer função de ordenação
 
-### O template
-
-> Não altere o arquivo build.gradle
-
-> O código java estará (ou você terá que colocar) no diretório **/src/main/java/**
-
-> Os testes estarão (ou você terá que incluir) no diretório **/src/test/java/**
-
-## Trabalhando com o código
-
-Executar os comandos abaixo no diretório raiz do seu projeto (onde está o arquivo build.gradle).
-
-> Compilando: `gradle compileJava`
-
-> Executando os testes: `gradle test`
 
 ## Entregando a prova
 
-> Passo 0. Modifique o arquivo README. Coloque seu nome, email @ccc e matrícula nos lugares indicados. Se você não fizer isso, não considero que sua prova foi assinada e, portanto, não vou corrigir.
+> ⚠️ **Importante:** Todos os comandos abaixo devem ser executados no **diretório pai** do projeto, ou seja, no diretório que **contém** o diretório `template-piloto-prova/`. 
 
-> Passo 1. Certifique-se **NO TERMINAL** de que sua solução compila e passa nos testes públicos. Isso deve ser feito com os comandos do gradle (compileJava e test).
+---
 
-> Passo 2. Submeta as suas modificações para o repositório
+### Passo 1: Gerar o arquivo compactado da sua solução
 
-  * `git pull`
-  * `git commit -m "entregando a prova"`
-  * `git push origin main`
+Execute o comando abaixo **no diretório pai** do projeto (o diretório que contém `template-piloto-prova/`):
+
+```bash
+tar zcvf nome-sobrenome-matricula.tar.gz template-piloto-prova/
+```
+---
+
+### Passo 2: Submeter sua solução
+
+Execute o comando abaixo **no mesmo diretório do Passo 1**:
+
+```bash
+bash template-piloto-prova/submit-answer.sh simulado nome-sobrenome-matricula.tar.gz
+```
+
+Importante: a senha é `leda`
+
+## Importante
+
+* A correção da prova não é automática. Os testes que são executados quando você roda localmente são apenas testes de sanidade.
+
+* Vou considerar sempre a última submissão antes do deadline final. 
+
+* A nota será dada pelos testes no servidor e depois da correção que eu efetuar. Sempre tento corrigir o mais rápido possível. Portanto, tenha paciência.
+
+* A nota será calculada a partir dos testes e análise manual do código. Essa análise manual vai considerar se a solução é eficiente, se não tem loops desnecessários etc.
+
+* Só serão corrigidas as provas dos alunos que assinaram a lista de presença física no laboratório.
